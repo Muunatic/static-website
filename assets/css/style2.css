@@ -1,0 +1,31 @@
+/* 
+* © 2022 Muunatic. All rights reserved.
+*/
+
+.main2 {
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(39, 39, 39);
+}
+
+.main2container {
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.main2title {
+    font-weight: 900;
+}
+
+.main2content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main2contentbox {
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+.main2boxvalue {
+    padding: 1rem;
+}
