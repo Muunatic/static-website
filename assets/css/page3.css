@@ -1,0 +1,33 @@
+/* 
+* © 2022 Muunatic. All rights reserved.
+*/
+
+.page3 {
+    display: none;
+    padding: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55rem;
+}
+
+.page3main2 {
+    border-radius: 0px 0px 0px 0px;
+    background-color: #272727;
+}
+
+.page3main2container {
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.page3main2content {
+    text-align: center;
+}
+
+.page3main2video {
+    pointer-events: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

@@ -1,0 +1,90 @@
+/* 
+* © 2022 Muunatic. All rights reserved.
+*/
+
+.main4 {
+    padding-bottom: 1rem;
+    border-radius: 0px 0px 0px 0px;
+    background-color: #272727;
+}
+
+.main4container {
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+.main4title {
+    display: inline-block;
+    font-weight: 900;
+}
+
+.main4icon {
+    color: #1db954;
+    float: right;
+    font-size: xx-large;
+}
+
+.main4content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main4album {
+    display: inline-block;
+}
+
+.main4album .main4popup {
+    display: none;
+}
+
+.main4album:hover .main4popup {
+    margin-left: 1rem;
+    position: absolute;
+    display: block;
+    background-color: #272727;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+
+.main4img {
+    max-width: 144px;
+}
+
+.main4text {
+    padding-left: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.main4bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.main4sliderbar {
+    height: 5px;
+    background-color: #323232;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main4whitesliderbar {
+    height: 5px;
+    background-color: white;
+    width: 5rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main4currenttime {
+    float: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.main4endtime {
+    float: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
