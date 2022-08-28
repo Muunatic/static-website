@@ -67,7 +67,7 @@ function start() {
       typewriter();
     }, 9000);
   });
-}
+};
 
 const page1 = document.getElementById('pageid');
 const page2 = document.getElementById('page2id');
@@ -77,13 +77,13 @@ function houseIcon() {
   page1.style.display = 'block';
   page2.style.display = 'none';
   page3.style.display = 'none';
-}
+};
 
 function imageIcon() {
   page1.style.display = 'none';
   page2.style.display = 'block';
   page3.style.display = 'none';
-}
+};
 
 function playIcon() {
   page1.style.display = 'none';
@@ -97,10 +97,11 @@ function playIcon() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         media.play();
+        return;
       }
       media.pause();
     });
   });
   
   observer.observe(postwrapper);
-}
+};
