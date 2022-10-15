@@ -105,7 +105,6 @@ a:hover {
 }
 
 .copyright {
-    margin-top: 1rem;
     border-radius: 0px 0px 10px 10px;
     background-color: #323232;
 }
@@ -137,16 +136,4 @@ a:hover {
 .underline:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
-
-@media only screen and (max-width: 880px) {
-    * {
-        display: none;
-        visibility: hidden;
-    }
-
-    html {
-        display: none;
-        visibility: hidden;
-    }
 }

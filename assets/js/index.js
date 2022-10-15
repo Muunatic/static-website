@@ -24,17 +24,17 @@ let i = 0;
 let txt = '> println("Hello, World!");';
 let speed = 50;
 
-if (screen.width < 880) {
+if (screen.width <= 380) {
   alert('Your resolution under website system requirements, use desktop view to access all content.');
-};
+}
 
 function typewriter() {
   if (i < txt.length) {
     document.getElementById('additionalinfo').innerHTML += txt.charAt(i);
     i++;
     setTimeout(typewriter, speed);
-  };
-};
+  }
+}
 
 document.addEventListener('keydown', function() {
   if (event.keyCode == 123) {
@@ -65,9 +65,9 @@ function start() {
     setTimeout(() => {
       $("#welcomeid").fadeOut();
       typewriter();
-    }, 9000);
+    }, 13000);
   });
-};
+}
 
 const page1 = document.getElementById('pageid');
 const page2 = document.getElementById('page2id');
@@ -77,13 +77,13 @@ function houseIcon() {
   page1.style.display = 'block';
   page2.style.display = 'none';
   page3.style.display = 'none';
-};
+}
 
 function imageIcon() {
   page1.style.display = 'none';
   page2.style.display = 'block';
   page3.style.display = 'none';
-};
+}
 
 function playIcon() {
   page1.style.display = 'none';
@@ -104,4 +104,4 @@ function playIcon() {
   });
   
   observer.observe(postwrapper);
-};
+}

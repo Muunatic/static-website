@@ -1,0 +1,259 @@
+/* 
+* © 2022 Muunatic. All rights reserved.
+*/
+
+@media only screen and (max-width: 880px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .page {
+        display: block;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainiconwrapper {
+        display: inline-block;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .mainicon {
+        color: white;
+        font-size: 20px;
+    }
+
+    .imgcover {
+        width: 100%;
+        max-height: 144px;
+        object-fit: cover;
+    }
+    
+    .imgcoveradjust {
+        object-position: 0px -80px;
+    }
+
+    .copyright {
+        font-size: 14px;
+        border-radius: 0px 0px 0px 0px;
+        background-color: #323232;
+    }
+
+    .main4img {
+        max-width: 72px;
+    }
+
+    .main4content {
+        font-size: 12px;
+    }
+
+    .main5boxvalue {
+        padding: 0.8rem;
+    }
+
+    .page2 {
+        display: none;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page2main2 {
+        border-radius: 0px 0px 0px 0px;
+        background-color: #272727;
+    }
+    
+    .page2main2container {
+        padding: 1rem;
+        color: whitesmoke;
+    }
+    
+    .page2main2content {
+        text-align: center;
+    }
+    
+    .page2main2image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .page3 {
+        display: none;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page3main2 {
+        border-radius: 0px 0px 0px 0px;
+        background-color: #272727;
+    }
+    
+    .page3main2container {
+        padding: 1rem;
+        color: whitesmoke;
+    }
+    
+    .page3main2content {
+        text-align: center;
+    }
+    
+    .page3main2video {
+        pointer-events: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .page {
+        display: block;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mainiconwrapper {
+        display: inline-block;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .mainicon {
+        color: white;
+        font-size: 20px;
+    }
+
+    .imgcover {
+        width: 100%;
+        max-height: 144px;
+        object-fit: cover;
+    }
+    
+    .imgcoveradjust {
+        object-position: 0px -50px;
+    }
+
+    .copyright {
+        font-size: 10px;
+        border-radius: 0px 0px 0px 0px;
+        background-color: #323232;
+    }
+
+    .main4img {
+        max-width: 72px;
+    }
+
+    .main4content {
+        font-size: 10px;
+    }
+
+    .main4text {
+        padding-left: 0.5rem;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .main4icon {
+        font-size: 18px;
+    }
+
+    .main5boxvalue {
+        padding: 0.5rem;
+    }
+
+    .page2 {
+        display: none;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page2main2 {
+        border-radius: 0px 0px 0px 0px;
+        background-color: #272727;
+    }
+    
+    .page2main2container {
+        padding: 1rem;
+        color: whitesmoke;
+    }
+    
+    .page2main2content {
+        text-align: center;
+    }
+    
+    .page2main2image {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .page3 {
+        display: none;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page3main2 {
+        border-radius: 0px 0px 0px 0px;
+        background-color: #272727;
+    }
+    
+    .page3main2container {
+        padding: 1rem;
+        color: whitesmoke;
+    }
+    
+    .page3main2content {
+        text-align: center;
+    }
+    
+    .page3main2video {
+        pointer-events: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    .main4text {
+        padding-left: 0.1rem;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 374px) {
+
+    * {
+        display: none;
+        visibility: hidden;
+    }
+
+    html {
+        display: none;
+        visibility: hidden;
+    }
+
+}
