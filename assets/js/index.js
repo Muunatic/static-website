@@ -54,7 +54,7 @@ if (document.addEventListener) {
   document.attachEvent('oncontextmenu', function() {
     window.event.returnValue = false;
   });
-};
+}
 
 $(window).on('load', () => {
   return document.getElementById('welcomeassets').src = 'assets/img/welcome.mp4';
