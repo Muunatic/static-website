@@ -1,23 +1,22 @@
 // © 2022 Muunatic. All rights reserved.
 
 const swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: false,
-  mousewheel: false,
+    direction: 'horizontal',
+    loop: false,
+    mousewheel: false,
 
-  pagination: {
-    el: '.swiper-pagination',
-  },
+    pagination: {
+      el: '.swiper-pagination',
+    },
 
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
 
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
 });
 
 let i = 0;
@@ -25,15 +24,15 @@ let txt = '> println("Hello, World!");';
 let speed = 50;
 
 if (screen.width <= 380) {
-  alert('Your resolution under website system requirements, use desktop view to access all content.');
+    alert('Your resolution under website system requirements, use desktop view to access all content.');
 }
 
 function typewriter() {
-  if (i < txt.length) {
-    document.getElementById('additionalinfo').innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typewriter, speed);
-  }
+    if (i < txt.length) {
+        document.getElementById('additionalinfo').innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typewriter, speed);
+    }
 }
 
 document.addEventListener('keydown', function() {
